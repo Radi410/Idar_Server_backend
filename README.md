@@ -2,6 +2,10 @@
 Radio Nova Backup Recording System (Intern server)
 IDAR er en dedikert backup-server som kontinuerlig tar opp Radio Novas sending i 2-timers intervaller. Hvis hovedserveren (Fred) går ned, kan ansatte hente opptak fra IDAR via et webgrensesnitt.
 
+Denne holder av repriser fra DAB i 48 timer sånn at medlemmer i Radio Nova får tilgang i tilfellet reprisen blir ikke lagret. 
+## Web-interface
+![4145b7cf-6103-4054-947d-069ca4069acc](https://github.com/user-attachments/assets/3a3ab919-38ca-4317-9638-4e430aa88489)
+
 ### Teknisk Stack
 - **OS:** Ubuntu Server 24.04 LTS
 - **Recording:** ffmpeg
